@@ -12,7 +12,7 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [react(), tsconfigPaths()],
     server: {
-      hmr: { port: 51730, host: '0.0.0.0' },
+      hmr: { port: 51730 },
       host: '0.0.0.0',
       port: 5173,
       open: false, // Set this to true to open project in browser on starting server
