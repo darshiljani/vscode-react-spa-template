@@ -13,7 +13,7 @@ const createAxiosInstance = () => {
 
 const instance = createAxiosInstance()
 
-export const axiosInstance = async <T>(
+export const axiosCustomInstance = async <T>(
   config: AxiosRequestConfig,
   options?: AxiosRequestConfig
 ): Promise<AxiosResponse<T>> => {
@@ -34,6 +34,6 @@ export const axiosInstance = async <T>(
   return promise
 }
 
-export default axiosInstance
+export default axiosCustomInstance
 
 export type ErrorType<Error> = AxiosError<Error>
