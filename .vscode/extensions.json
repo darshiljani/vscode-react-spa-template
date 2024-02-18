@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "ritwickdey.liveserver",
+    "ms-vscode.js-debug-nightly"
+  ],
+  "unwantedRecommendations": ["ms-vscode.js-debug"]
+}
